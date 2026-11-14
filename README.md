@@ -19,6 +19,19 @@ We value your privacy and are committed to handling your data responsibly. We do
 - **eBay account credentials** — the OAuth access and refresh tokens for the eBay seller account(s) you connect, so the app can create and update listings on your behalf. These tokens are encrypted at rest (see [Section 4](#4-data-storage-and-security)).
 - **App configuration and billing** — your plan/subscription and app settings.
 
+**Error monitoring**
+
+We use Sentry, an error-monitoring service provided by Functional Software, Inc. ("Sentry"), to find and fix problems in Simple Labels. When something in the app fails, an error report is sent to Sentry. A report may include:
+
+- the error message and the part of our code where the error happened
+- the app page where it occurred (the address only, without any login or session information)
+- your browser and operating system type
+- the time of the error
+- your store's myshopify.com domain, if it appears in the error
+Before a report is sent, we remove cookies, login tokens, request headers and form contents. Error reports do not include your customers' personal information, product data or label content, and Simple Labels does not store customer data.
+
+Error reports are stored on Sentry's servers in the United States and kept for [30 days]. We use them only to diagnose and fix problems with the app. You can read Sentry's privacy policy at https://sentry.io/privacy/.
+
 We do **not** collect or store personal information about your store's customers. Our apps operate on store-level and product-level data only.
 
 ## 2. How We Use Your Information
