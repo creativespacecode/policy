@@ -57,6 +57,20 @@ We do not otherwise share, rent, or sell your data to third parties.
 - **Simple Labels** does not store customer or product data externally. Label templates and product information are accessed securely through the Shopify API and used only for rendering and printing within the app.
 - **Simple eBay Sync** stores the store, product, listing, and configuration data described above in a secured database in order to perform ongoing background syncing. Connected eBay OAuth tokens are encrypted at rest using AES-256-GCM encryption and are cleared when you disconnect the account.
 
+- Images and logos (optional)
+
+If you choose to add a logo or other image to a label design, Simple Labels asks for permission to save files to your Shopify store. This permission is optional. It is requested only when you first add a logo, and you can decline it or revoke it at any time.
+
+When you upload an image, it passes through our server only to be checked (we accept PNG, JPG, GIF, and WebP images up to 5 MB) and forwarded to Shopify. It is stored in your store's Files (Content › Files), where you can view or delete it like any other file. We do not keep a copy. Our database keeps only the image's Shopify ID and web address, as part of the label design that uses it, and deletes them with your other app data when you uninstall the app and Shopify sends its data deletion request.
+
+With this permission, Simple Labels also reads the images already in your store's Files so you can choose one for a label. It never changes or deletes files you didn't upload through the app.
+
+-Product images
+Label designs can show your products' images. These are read with the product access the app already has and are loaded directly from Shopify's servers when a label is shown or printed. We do not store them.
+
+-Fonts
+The fonts used in label designs are served from our own servers. No font service or other third party receives information about you or your customers when labels are designed or printed.
+
 Across all of our apps, we use standard, industry-accepted security practices to protect the data we handle, and access to store data is limited to what each app needs to function.
 
 ## 5. Data Retention and Deletion
