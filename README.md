@@ -68,6 +68,7 @@ We do not otherwise share, rent, or sell your data to third parties.
 - Fonts
 -- The fonts used in label designs are served from our own servers. No font service or other third party receives information about you or your customers when labels are designed or printed.
 
+- Product changes (optional). If you use Barcodes to generate barcodes, Simple Labels asks for permission to edit products. It uses it only to save the barcodes you choose to the variants you select, and never changes a barcode that's already set.
 Across all of our apps, we use standard, industry-accepted security practices to protect the data we handle, and access to store data is limited to what each app needs to function.
 
 ## 5. Data Retention and Deletion
