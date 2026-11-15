@@ -65,7 +65,7 @@ We do not otherwise share, rent, or sell your data to third parties.
 - Product images
 -- Label designs can show your products' images. These are read with the product access the app already has and are loaded directly from Shopify's servers when a label is shown or printed. We do not store them.
 
--Fonts
+- Fonts
 -- The fonts used in label designs are served from our own servers. No font service or other third party receives information about you or your customers when labels are designed or printed.
 
 Across all of our apps, we use standard, industry-accepted security practices to protect the data we handle, and access to store data is limited to what each app needs to function.
